@@ -8,7 +8,8 @@ Homepage: http://www.cruisecontrolnet.org/
 
 Package: ccnet
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, mono-fastcgi-server4, lighttpd,
+ mono-4.0-service
 Description: CruiseControl.NET is an Automated Continuous Integration server,
  implemented using the .NET Framework.
 

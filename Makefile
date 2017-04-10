@@ -19,5 +19,6 @@ patch:
 install: CCCmd CCTray CCValidator examples license.txt Server WebDashboard
 	mkdir -p ${DESTDIR}/opt/ccnet
 	mv $^ ${DESTDIR}/opt/ccnet/
+	mkdir -p ${DESTDIR}/etc/lighttpd/conf-available
 	/usr/bin/install lighttpd.conf ${DESTDIR}/etc/lighttpd/conf-available/50-ccnet.conf
 
