@@ -1,0 +1,14 @@
+Source: ccnet
+Section: misc
+Priority: extra
+Maintainer: Vasily i. Redkin <vasilyredkin@gmail.com>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.4
+Homepage: http://www.cruisecontrolnet.org/
+
+Package: ccnet
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: CruiseControl.NET is an Automated Continuous Integration server,
+ implemented using the .NET Framework.
+
